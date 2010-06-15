@@ -1,0 +1,22 @@
+Installing QuoteFix
+===================
+
+- build the plug-in:
+  python setup.py py2app
+- copy or move dist/QuoteFix.mailbundle to ~/Library/Mail/Bundles/
+
+If you're hacking the code, you can use py2app's '-A' commandline option to
+make 'alias builds', which build much faster and are much smaller. However,
+these are pinned to your local setup (the plug-in just contains a bunch of
+symlinks to the sources) so make sure to remove the '-A' when you're making
+a distribution build.
+
+Snow Leopard notes
+------------------
+
+In Snow Leopard, mail plug-ins must declare, in their Info.plist, with
+which versions of Mail.app and Message.framework they are compatible. See
+the 'plist' dict in setup.py (the 'SupportedPluginCompatibilityUUIDs' key).
+
+Also, it seems that making alias builds (as described above) don't seem to
+work properly on Snow Leopard.
