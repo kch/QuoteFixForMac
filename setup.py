@@ -30,6 +30,9 @@ setup(
                 # 10.6.2
                 '2F0CF6F9-35BA-4812-9CB2-155C0FDB9B0F', # Mail
                 '0CB5F2A0-A173-4809-86E3-9317261F1745', # Message.framework
+                # 10.6.4
+                'B842F7D0-4D81-4DDF-A672-129CA5B32D57', # Mail 4.3
+                'E71BD599-351A-42C5-9B63-EA5C47F7CE8E', # Message.framework 4.3
             ]
         )
     ))
