@@ -33,6 +33,9 @@ setup(
                 # 10.6.4
                 'B842F7D0-4D81-4DDF-A672-129CA5B32D57', # Mail 4.3
                 'E71BD599-351A-42C5-9B63-EA5C47F7CE8E', # Message.framework 4.3
+                # 10.6.5
+                'BDD81F4D-6881-4A8D-94A7-E67410089EEB', # Mail 4.4
+                '857A142A-AB81-4D99-BECC-D1B55A86D94E', # Message.framework 4.4
             ]
         )
     ))
